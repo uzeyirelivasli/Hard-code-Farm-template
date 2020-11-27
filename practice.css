@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+}
+nav li a{
+    margin-left: 25px;
+    font-size: 14px;
+    color: rgb(146, 142, 142);
+    transition: .4s;
+}
+nav li a:hover{
+    color: green;
+}
+
+nav img{
+    width: 121px;
+}
+
+/* NAV END */
+#home{
+    color: green;
+}
+#center{
+    margin-top: 25px;
+    background-image: url('https://preview.colorlib.com/theme/farmie/img/bg-img/7.jpg');
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+#center-text{
+    margin-left: 200px;
+}
+#center-text h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+    width: 70%;
+}
+#center-text p{
+    color: white;
+    margin-bottom: 30px;
+}
+#center-text button{
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    font-weight: 700;
+    transition: .8s;
+    border: none;
+}
+#center-text button:hover{
+    background-color: black;
+
+}
+/* CENTER END */
+#serv-img-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#services img{
+    width: 1110px;
+    height: 430px;
+    object-fit: cover;
+}
+
+#services ul{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+#services ul li{
+    font-size: 24px;
+    font-weight:500;
+    margin-left: 20px;
+}
+/* Services end */
+#about-us{
+    width: 1110px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+}
+#about-us h4{
+    color: #707070;
+    font-size: 14px;
+    display: flex;
+}
+#about-us img{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+#about-us span{
+    color: rgb(42, 170, 42);
+}
+#about-us h1{
+    margin-bottom: 60px;
+}
+#about-us button{
+    background-color: rgb(33, 172, 40);
+    padding: 15px 35px;
+    color: white;
+    border: none;
+    transition: .8s;
+}
+#about-us button:hover{
+    background-color: black;
+}
+#about-us p{
+    color: #707070;
+    margin-bottom: 40px;
+}
+/* ABOUT US END */
+#ww-do{
+    display: flex;
+    background-color: #F2F4F5;
+    margin-top: 20px;
+}
+#ww-do-img{
+    background-image: url('https://preview.colorlib.com/theme/farmie/img/bg-img/7.jpg');
+    width: 608px;
+    height: 775px;
+    background-position: center;
+    background-size: cover;
+}
+#ww-do #lorem{
+    width: 660px;
+    color: #707070;
+    margin-bottom: 50px ;
+}
+#ww-do h4{
+    color: #707070;
+    margin-bottom: 15px;
+}
+#ww-do #ww-do-title{
+    margin-bottom: 50px;
+}
+#ww-do h1 span{
+    color: rgb(15, 163, 15);
+}
+#ww-do-content{
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.food{
+    color: #707070;
+}
+.food-c{
+    width: 350px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+#food{
+    display: flex;
+    flex-wrap: wrap;
+}
+#food h1{
+    margin-bottom: 25px;
+    transition: .7s;
+}
+#food h1:hover{
+    color: green;
+}
+/* WHAT WE DO END  */
+#fe-pr{
+    width: 1110px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 80px;
+}
+#fe-pr-title h4{
+    text-align: center;
+    color: #707070;
+}
+#fe-pr-title h1 span{
+    color: green;
+}
+#fe-pr-title h1{
+    text-align: center;
+    font-size: 40px;
+}
+#fe-pr-card{
+    margin-top: 120px;
+}
+#fe-pr-card img{
+    width: 255px;
+    height: 330px;
+}
+#fe-pr button{
+    padding: 10px 30px ;
+    background-color: rgb(28, 165, 28);
+    transition: .8s;
+    color: white;
+    font-weight: 600;
+    display: block;
+    margin: 30px auto;
+    border: none;
+}
+#fe-pr button:hover{
+    background-color: black;
+}
+
+#fe-pr .card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    flex-wrap: wrap;
+}
+#card-container{
+    width: 1110px;
+    display: flex;
+}
+/* Products END */
+#subscribe{
+    background-image: url('https://preview.colorlib.com/theme/farmie/img/bg-img/8.jpg');
+    width: 100%;
+    height: 528px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#subscribe h4,#subscribe h1 ,#subscribe p{
+    color: white;
+}
+#subscribe p{
+    margin: 0 0 50px 0;
+    width: 700px;
+    text-align: center;
+}
+#subscribe input{
+    width: 400px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+}
+#subscribe button{
+    color: white;
+    padding: 10px 30px;
+    background-color: rgb(37, 156, 37);
+    transition: .8s;
+    border: none;
+}
+#subscribe button:hover{
+    background-color: black;
+}
+#subscribe h1{
+    margin-bottom: 30px;
+}
+
+/* SUBSCRIBE END */
+#green-world{
+    margin-top: 100px;
+}
+#green-world h2 span{
+    color: green;
+}
+#green-world h4{
+    color: #707070;
+}
+#green-world-text{
+    text-align: center;
+    margin-bottom: 70px;
+}
+#green-world img{
+    width: 350px;
+    height: 283.5px;
+}
+#gr-w-card-c{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1110px;
+    margin: 0 auto;
+}
+.gr-w-card p{
+    width: 350px;
+}
+.gr-w-card{
+    margin: 20px 10px; 
+}
+.card-inf{
+    text-align: center;
+    margin-top: 30px;
+}
+.card-inf p{
+    color: #707070;
+}
+.card-inf h2{
+    transition: .8s;
+    margin-bottom: 10px;
+}
+.card-inf h2:hover{
+    color: green;
+}
+/* GREEN WORLD END */
+#client-cms{
+    background-image: url('https://preview.colorlib.com/theme/farmie/img/bg-img/15.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+#client-cms img{
+    border-radius: 50%;
+    border: 4px solid rgb(109, 190, 109);
+}
+#client-cms p{
+    width: 80%;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#client-cms-text{
+    margin: 0 auto;
+    width: 90%;
+}
+#client-flex{
+    display: flex;
+    align-items: center;
+}
+#client-name{
+    margin-left: 20px;
+}
+#client-name h3{
+    color: white;
+}
+#client-name h5{
+    color: green;
+}
+/* CLIENT END */
+#contact-now{
+    width: 1110px;
+    margin: 80px auto;
+    display: flex;
+}
+#contact-now h4{
+    color: #3f3b3b;
+    display: flex;
+}
+#contact-now span{
+    color: green;
+}
+#form #name{
+    padding: 10px 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+#form #email{
+    padding: 10px 30px;
+}
+#form #subject{
+    padding: 10px 155px;
+    margin-bottom: 30px;
+}
+#form button{
+    color: white;
+    background-color: rgb(24, 190, 24);
+    transition: .8s;
+    padding: 15px 30px;
+    border: none;
+    margin-top: 30px;
+}
+#form button:hover{
+    background-color: black;
+}
+#left-side{
+    width: 600px;
+}
+/* CONTACT NOW END */
+
+#post{
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+}
+#left-post{
+    background-image: url('https://preview.colorlib.com/theme/farmie/img/bg-img/17.jpg');
+    width: 540px;
+    height: 512px;
+    display: flex;
+    align-items: flex-end;
+}
+#right-post .card{
+    background-color: rgb(248, 241, 241);
+    width: 500px;
+    margin: 0 0 30px 30px ;
+    padding: 20px;
+}
+#right-post .card .date{
+    color: #707070;
+}
+#right-post .card p{
+    color: #707070;
+    margin-top: 10px ;
+}
+#left-post-text{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    margin-bottom: 40px;
+}
+#left-post-text p{
+    margin-bottom: 20px;
+}
+#left-post-text h2{
+    transition: .8s;
+    font-weight: 700;
+}
+#left-post-text h2:hover{
+    color: rgb(17, 196, 17);
+}
+#footer{
+    margin-top: 80px;
+    width: 100%;
+    height: 430px;
+    background-image: url('https://preview.colorlib.com/theme/farmie/img/bg-img/3.jpg');
+}
